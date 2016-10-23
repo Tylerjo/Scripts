@@ -1,0 +1,19 @@
+#!/bin/bash
+#Find number of .png files in the specified directory.
+count=$(find /home/tyler/Pictures/ -maxdepth 1 -name '*.png' | wc -l)
+
+r=$(( $RANDOM % 10 + ($count - 10)))
+files=(/home/tyler/Pictures/Wallpapers/*.png)
+feh --bg-scale ${files[$r]}
+
+
+
+
+
+
+
+
+
+
+
+

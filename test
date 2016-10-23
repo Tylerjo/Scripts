@@ -1,0 +1,6 @@
+#!/bin/bash
+
+n=1
+
+files=(/home/tyler/Pictures/*.png)
+echo "${files[1]}"
